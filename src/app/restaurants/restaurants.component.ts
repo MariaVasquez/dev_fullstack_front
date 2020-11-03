@@ -21,5 +21,6 @@ export class RestaurantsComponent implements OnInit {
       this.data = res.data;
     });
   }
+  
 
 }
