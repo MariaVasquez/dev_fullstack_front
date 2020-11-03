@@ -1,0 +1,22 @@
+<h3 style="padding-top: 2%;" class="ng-binding">Restaurants</h3>
+<hr>
+<p>Hola mundo</p>
+
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">name</th>
+        <th scope="col">description</th>
+        <th scope="col">address</th>
+        <th scope="col">image</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dato of data">
+        <td>{{dato.name}}</td>
+        <td>{{dato.description}}</td>
+        <td>{{dato.address}}</td>
+        <td><img src={{dato.image}} width="500" height="300" ></td>
+      </tr>
+    </tbody>
+  </table>
